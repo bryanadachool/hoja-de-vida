@@ -1,12 +1,11 @@
-.estilo{
-    background-color:#07b9ff;
-    width: 50vh;
-    left: 60vh;
-    
-    
+.container{
+    display: grid;
+    background-color: dimgrey;
 }
-.login{
-    background-color: white ;
-    
-    margin: 10px;
+.textbox{
+ flex-direction: column;
+    background-color: aliceblue;
+}
+.botones{
+    flex-direction: row;
 }
